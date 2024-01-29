@@ -1,0 +1,6 @@
+<?xml version='1.0' ?>
+<launch>
+  <include file="$(find-pkg-share rover)/launch/rover.launch.py"/>
+  <include file="$(find-pkg-share rover)/launch/start_world.launch.py"/>
+  <include file="$(find-pkg-share rover)/launch/spawn_robot_description.launch.py"/>
+</launch>
